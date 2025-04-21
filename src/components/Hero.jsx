@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <main className="bg-gradient-to-r from-[#D84B72] via-[#D87A64] to-[#D48A28] min-h-screen flex flex-col-reverse items-center justify-center px-4 md:flex-row md:justify-between md:px-12 lg:px-24">
-      {/* TEXTO */}
+     
       <section className="flex flex-col text-center md:text-left md:max-w-[50%]">
         <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mt-10 md:mt-0">
           Lorem ipsum, dolor sit amet.
@@ -19,10 +19,9 @@ function Hero() {
         </button>
       </section>
 
-      {/* IMAGEM */}
       <section className="mb-10 md:mb-0">
         <img
-          src="/public/hero.png"
+          src="/hero.png"
           alt="Hero"
           className="w-[250px] sm:w-[350px] md:w-[450px] lg:w-[700px] h-auto"
         />
